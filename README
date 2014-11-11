@@ -1,0 +1,19 @@
+FSearch
+=======
+
+A JAVA app to search files in desktop using Apache Lucene:
+http://lucene.apache.org/core/index.html
+
+Dependencies:
+Apache Lucene Version 4_10_2
+
+Useful starting point for Lucene:
+http://lucene.apache.org/core/quickstart.html
+
+Args Info:
+FSIndexer: <Files_list> <index_folder_location> 
+FSQuerier: <query_string> <index_folder_location>
+
+Sample args:
+"/home/vidhoonv/searchX/all_files.txt" "/home/vidhoonv/searchX/index_loc"
+"README" "/home/vidhoonv/searchX/index_loc/"
